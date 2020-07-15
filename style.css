@@ -1,0 +1,83 @@
+/* style.css */
+body {
+  background-color:#BAE1E1;
+  font-family: Arial;
+  front-weight: bold;
+  color: #071616;
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: Arial;
+  font-weight: bold;
+  color:#071616;
+}
+
+h2, h3 {
+  font-family: Arial;
+  color:#105555;
+}
+
+
+p {
+  color: #000000;
+  font-weight: bold;
+  }
+
+
+a {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+  background-color: #00351A;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+a:hover {
+  color: #1DDBDB;
+}/* Write some CSS below */
+
+div{
+  padding: 20px; 
+}
+
+#banner{
+  background-image: url('images/summer.jpg');
+  background-position: center;
+  background-size: cover; 
+  padding: 150px
+  text-align: center;
+}
+
+.card-white{
+  background-color: white;
+  width:400px;
+  margin: 20px;
+  text-align: center;
+}
+
+#footer{
+  colour:#598080;
+  background-color:#598080; 
+
+  }
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+
+
+
+
+}
+
+
+
+
+
+
+
